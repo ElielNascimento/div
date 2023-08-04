@@ -8,13 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria Responsiva</title>
 
-     <style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
         }
+
         .image-section {
             display: flex;
             flex-wrap: wrap;
@@ -22,6 +23,7 @@
             padding: 2rem;
             background-color: #fff;
         }
+
         .image-container {
             flex: 0 0 calc(33.33% - 10px);
             margin-bottom: 20px;
@@ -30,13 +32,27 @@
             flex-direction: column;
             align-items: center;
         }
+
         .image-container img {
             max-width: 100%;
             height: auto;
             border-radius: 5px;
         }
+
         .image-container p {
             margin-top: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .image-container {
+                flex: 0 0 calc(50% - 10px);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .image-container {
+                flex: 0 0 100%;
+            }
         }
     </style>
 </head>
@@ -49,8 +65,10 @@
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 1">
-            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
                 a filosofia do reutilizar para produzir.</p>
         </div>
 
@@ -59,40 +77,26 @@
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 2">
-            <p> <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
-                a filosofia do reutilizar para produzir.</p></p>
+            <p>
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
+                a filosofia do reutilizar para produzir.</p>
+            </p>
         </div>
 
 
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 3">
-            <p> <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
-                a filosofia do reutilizar para produzir.</p></p>
-        </div>
-
-
-
-
-        <div class="image-container">
-            <h1>Água, Semente da Vida</h1>
-            <img src="img/este.jpg" alt="Imagem 3">
-            <p> <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
-                a filosofia do reutilizar para produzir.</p></p>
-        </div>
-
-
-
-
-        <div class="image-container">
-            <h1>Água, Semente da Vida</h1>
-            <img src="img/este.jpg" alt="Imagem 3">
-            <p> <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
-                a filosofia do reutilizar para produzir.</p></p>
+            <p>
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
+                a filosofia do reutilizar para produzir.</p>
+            </p>
         </div>
 
 
@@ -101,9 +105,43 @@
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 3">
-            <p> <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
-                a filosofia do reutilizar para produzir.</p></p>
+            <p>
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
+                a filosofia do reutilizar para produzir.</p>
+            </p>
+        </div>
+
+
+
+
+        <div class="image-container">
+            <h1>Água, Semente da Vida</h1>
+            <img src="img/este.jpg" alt="Imagem 3">
+            <p>
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
+                a filosofia do reutilizar para produzir.</p>
+            </p>
+        </div>
+
+
+
+
+        <div class="image-container">
+            <h1>Água, Semente da Vida</h1>
+            <img src="img/este.jpg" alt="Imagem 3">
+            <p>
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
+                a filosofia do reutilizar para produzir.</p>
+            </p>
         </div>
 
 
@@ -124,8 +162,10 @@
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 3">
-             <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
                 a filosofia do reutilizar para produzir.</p>
         </div>
 
@@ -133,8 +173,10 @@
         <div class="image-container">
             <h1>Água, Semente da Vida</h1>
             <img src="img/este.jpg" alt="Imagem 3">
-            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de famílias agricultoras do Alto Oeste Potiguar, 
-                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a participação de 21 famílias agricultoras e adota 
+            <p>é o nome de uma solução que visa ao tratamento e reuso de águas cinzas em quintais agroecológicos de
+                famílias agricultoras do Alto Oeste Potiguar,
+                nos municípios de Encanto e São Miguel, na região do semiárido do Rio Grande do Norte. Tem a
+                participação de 21 famílias agricultoras e adota
                 a filosofia do reutilizar para produzir.</p>
         </div>
 
